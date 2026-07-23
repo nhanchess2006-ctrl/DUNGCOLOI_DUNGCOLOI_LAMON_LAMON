@@ -6094,11 +6094,7 @@ Transform:
   m_GameObject: {fileID: 274070542}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< Updated upstream
-  m_LocalPosition: {x: -11.65, y: 0.39, z: -1}
-=======
-  m_LocalPosition: {x: 7.16, y: 1.38, z: -1}
->>>>>>> Stashed changes
+  m_LocalPosition: {x: 0.83, y: 3.68, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7378,10 +7374,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 201311885}
-  - {fileID: 1292178733}
-  - {fileID: 251340599}
   - {fileID: 1981590892}
   - {fileID: 204696922}
+  - {fileID: 1292178733}
+  - {fileID: 251340599}
   m_Father: {fileID: 1881298678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -10394,11 +10390,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< Updated upstream
-  m_LocalPosition: {x: -14.67439, y: -0.94703853, z: 21.692577}
-=======
-  m_LocalPosition: {x: 4.1356096, y: 0.04296136, z: 21.692577}
->>>>>>> Stashed changes
+  m_LocalPosition: {x: -2.1943905, y: 2.3429615, z: 21.692577}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82921,8 +82913,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1558266608}
-  - {fileID: 375583954}
   - {fileID: 364113788}
+  - {fileID: 375583954}
   - {fileID: 262838193}
   - {fileID: 838481405}
   m_Father: {fileID: 1881298678}
@@ -84956,11 +84948,7 @@ Transform:
   m_GameObject: {fileID: 1454656417}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< Updated upstream
-  m_LocalPosition: {x: -14.67439, y: -0.94703853, z: 21.692577}
-=======
-  m_LocalPosition: {x: 4.1356096, y: 0.04296136, z: 21.692577}
->>>>>>> Stashed changes
+  m_LocalPosition: {x: -2.1943905, y: 2.3429615, z: 21.692577}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91805,19 +91793,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-<<<<<<< Updated upstream
-  - {fileID: 88249614}
-  - {fileID: 1080058312}
-  - {fileID: 2084378677}
-  - {fileID: 1588501866}
-  - {fileID: 1457542205}
-=======
   - {fileID: 328364995}
   - {fileID: 2017961968}
   - {fileID: 76852970}
   - {fileID: 1360876579}
   - {fileID: 2121324919}
->>>>>>> Stashed changes
   m_Father: {fileID: 1988432487}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -96821,12 +96801,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 88249614}
+  - {fileID: 1619327462}
+  - {fileID: 1273249189}
   - {fileID: 1080058312}
   - {fileID: 2084378677}
   - {fileID: 1588501866}
   - {fileID: 1457542205}
-  - {fileID: 1619327462}
-  - {fileID: 1273249189}
   m_Father: {fileID: 1881298678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

@@ -113,7 +113,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1269fa69eaeab0f46b60600721af20a7
-      internalID: 1221051087
+      internalID: 5457132565505971404
       vertices: []
       indices: 
       edges: []
@@ -131,12 +131,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
-    nameFileIdTable: {}
-=======
     nameFileIdTable:
-      artdecoUI_PIPO_wb_0: 1221051087
->>>>>>> Stashed changes
+      artdecoUI_PIPO_wb_0: 5457132565505971404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
