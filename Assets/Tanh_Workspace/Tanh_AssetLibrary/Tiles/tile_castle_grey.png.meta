@@ -67,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -134,16 +134,20 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 255
+        y: 256
         width: 480
-        height: 225
+        height: 224
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 44, y: -22.5}
+        - {x: 105, y: -22.5}
+        - {x: 105, y: 54.5}
+        - {x: 44, y: 54.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: bcc789b9abb017480800000000000000
       internalID: -8903322092232475445
@@ -156,16 +160,20 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 95
-        width: 449
-        height: 154
+        y: 96
+        width: 448
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 44, y: -22.5}
+        - {x: 105, y: -22.5}
+        - {x: 105, y: 54.5}
+        - {x: 44, y: 54.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: d51ea2d05c5fa78f0800000000000000
       internalID: -541850578466447011
@@ -177,17 +185,21 @@ TextureImporter:
       name: tile_castle_grey_2
       rect:
         serializedVersion: 2
-        x: 139
+        x: 140
         y: 0
-        width: 212
-        height: 110
+        width: 210
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 44, y: -22.5}
+        - {x: 105, y: -22.5}
+        - {x: 105, y: 54.5}
+        - {x: 44, y: 54.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: b8cb336a8755e3820800000000000000
       internalID: 2899849186746023051
@@ -199,17 +211,21 @@ TextureImporter:
       name: tile_castle_grey_3
       rect:
         serializedVersion: 2
-        x: 353
-        y: 31
-        width: 62
-        height: 79
+        x: 354
+        y: 32
+        width: 60
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 30, y: -22.5}
+        - {x: 30, y: -22.5}
+        - {x: 30, y: 38.5}
+        - {x: 30, y: 38.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 81e08556b1f772de0800000000000000
       internalID: -1357977006987801064
@@ -221,17 +237,21 @@ TextureImporter:
       name: tile_castle_grey_4
       rect:
         serializedVersion: 2
-        x: 417
-        y: 31
-        width: 62
-        height: 79
+        x: 418
+        y: 32
+        width: 60
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 30, y: -22.5}
+        - {x: 30, y: -22.5}
+        - {x: 30, y: 38.5}
+        - {x: 30, y: 38.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 1effb7877a7919f70800000000000000
       internalID: 9192295059976617953
@@ -244,16 +264,20 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 55
-        width: 129
-        height: 14
+        y: 56
+        width: 128
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 44, y: -6}
+        - {x: 64, y: -6}
+        - {x: 64, y: 6}
+        - {x: 44, y: 6}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: d5a0e3ec8da1eab60800000000000000
       internalID: 7759168726481373789
@@ -266,16 +290,20 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 18
-        width: 140
-        height: 15
+        y: 19
+        width: 139
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 44, y: -6.5}
+        - {x: 69.5, y: -6.5}
+        - {x: 69.5, y: 6.5}
+        - {x: 44, y: 6.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 6aa276d4ff5b4ab10800000000000000
       internalID: 1991917043324496550
@@ -287,17 +315,21 @@ TextureImporter:
       name: tile_castle_grey_7
       rect:
         serializedVersion: 2
-        x: 360
-        y: 1
-        width: 16
-        height: 20
+        x: 361
+        y: 2
+        width: 14
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 7, y: -9}
+        - {x: 7, y: -9}
+        - {x: 7, y: 9}
+        - {x: 7, y: 9}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: ddee88e1bba439fe0800000000000000
       internalID: -1183520109536678179
@@ -309,17 +341,21 @@ TextureImporter:
       name: tile_castle_grey_8
       rect:
         serializedVersion: 2
-        x: 392
-        y: 6
-        width: 16
-        height: 20
+        x: 393
+        y: 7
+        width: 14
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 7, y: -9}
+        - {x: 7, y: -9}
+        - {x: 7, y: 9}
+        - {x: 7, y: 9}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 48dc600ea2f1b0b20800000000000000
       internalID: 3101607037382348164
@@ -331,17 +367,21 @@ TextureImporter:
       name: tile_castle_grey_9
       rect:
         serializedVersion: 2
-        x: 429
-        y: 9
-        width: 6
-        height: 14
+        x: 430
+        y: 10
+        width: 4
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 6}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: d549b175ec498f770800000000000000
       internalID: 8644823098683266141
@@ -353,17 +393,21 @@ TextureImporter:
       name: tile_castle_grey_10
       rect:
         serializedVersion: 2
-        x: 459
-        y: 5
-        width: 10
-        height: 22
+        x: 460
+        y: 6
+        width: 8
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 4, y: -10}
+        - {x: 4, y: -10}
+        - {x: 4, y: 10}
+        - {x: 4, y: 10}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 22d75b80caf4d0a90800000000000000
       internalID: -7346127816872329950
@@ -375,7 +419,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5360ac17a1515374498e96ecef1e6d8c
     internalID: 0
     vertices: []
     indices: 
