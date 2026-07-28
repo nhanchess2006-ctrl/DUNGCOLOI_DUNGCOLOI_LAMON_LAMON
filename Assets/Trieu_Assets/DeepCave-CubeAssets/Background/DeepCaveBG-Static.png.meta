@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DeepCaveBG-Static_0: 6224983099190890018
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

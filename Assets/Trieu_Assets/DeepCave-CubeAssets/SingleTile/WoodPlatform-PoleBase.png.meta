@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WoodPlatform-PoleBase_0: -8639764826597222548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
