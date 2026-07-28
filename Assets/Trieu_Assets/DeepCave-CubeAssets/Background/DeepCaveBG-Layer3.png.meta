@@ -130,7 +130,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 173
+        width: 640
         height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -146,99 +146,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: DeepCaveBG-Layer3_1
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 0
-        width: 85
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3bc0a1247e52e9c0800000000000000
-      internalID: -3899450474476025026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DeepCaveBG-Layer3_2
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 0
-        width: 28
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfc3b6b71ad09aa30800000000000000
-      internalID: 4226924712475442427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DeepCaveBG-Layer3_3
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 0
-        width: 35
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b8e9a517b6bc6940800000000000000
-      internalID: 5290804559712217268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DeepCaveBG-Layer3_4
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 0
-        width: 346
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8461723cff5f06ac0800000000000000
-      internalID: -3863818001444301240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf778b74689e6b340912582af0967832
     internalID: 0
     vertices: []
     indices: 
@@ -249,10 +161,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       DeepCaveBG-Layer3_0: -1748754493947650372
-      DeepCaveBG-Layer3_1: -3899450474476025026
-      DeepCaveBG-Layer3_2: 4226924712475442427
-      DeepCaveBG-Layer3_3: 5290804559712217268
-      DeepCaveBG-Layer3_4: -3863818001444301240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
