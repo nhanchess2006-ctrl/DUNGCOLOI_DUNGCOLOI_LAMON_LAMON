@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Entity_Health : MonoBehaviour, IDamageable
 {
     public event Action OnTakingDamage;
+    public event Action OnHealthUpdate;
 
 
     private Slider healthBar;
@@ -46,6 +47,8 @@ public class Entity_Health : MonoBehaviour, IDamageable
             return;
 
         currentHealth = entityStats.GetMaxHealth();
+        OnHealthUpdate += UpdateHealthBar;
+
         UpdateHealthBar();
         InvokeRepeating(nameof(RegenerateHealth), 0, regenInterval);
     }
@@ -107,14 +110,16 @@ public class Entity_Health : MonoBehaviour, IDamageable
         float maxHealth = entityStats.GetMaxHealth();
 
         currentHealth = Mathf.Min(newHealth, maxHealth);
-        UpdateHealthBar();
+        OnHealthUpdate?.Invoke();
+      
     }
 
     public void ReduceHealth(float damage)
     {
         entityVfx?.PlayOnDamageVfx();
+
         currentHealth = currentHealth - damage;
-        UpdateHealthBar();
+        OnHealthUpdate?.Invoke();
 
         if (currentHealth <= 0)
             Die();
@@ -132,7 +137,12 @@ public class Entity_Health : MonoBehaviour, IDamageable
     public void SetHealthToPercent(float percent)
     {
         currentHealth = entityStats.GetMaxHealth() * Mathf.Clamp01(percent);
-        UpdateHealthBar();
+        OnHealthUpdate?.Invoke();
+    }
+
+    public float GetCurrentHealth()
+    {
+        return currentHealth;
     }
 
     private void UpdateHealthBar()

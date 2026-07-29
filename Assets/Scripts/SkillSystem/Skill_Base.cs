@@ -26,11 +26,17 @@ public class Skill_Base : MonoBehaviour
 
     }
 
-    public void SetSkillUpgrade(UpgradeData upgrade)
+    public void SetSkillUpgrade(SkillDataSO skillData)
     {
+        UpgradeData upgrade = skillData.upgradeData;
         upgradeType = upgrade.upgradeType;
         cooldown = upgrade.cooldown;
         damageScaleData = upgrade.damageScaleData;
+
+
+
+
+        player.ui.inGameUI.GetSkillSlot(skillType).SetUpSkillSlot(skillData);
         ResetCooldown();
     }
 
