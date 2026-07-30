@@ -12916,6 +12916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxInventorySize: 10
   itemList: []
+  itemDataBase: {fileID: 11400000, guid: 128e365e6d7cc2d419520a003069459b, type: 2}
   gold: 10000
   equipList:
   - slotType: 1
@@ -15132,9 +15133,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 201311885}
+  - {fileID: 1981590892}
   - {fileID: 1292178733}
   - {fileID: 251340599}
-  - {fileID: 1981590892}
   - {fileID: 204696922}
   m_Father: {fileID: 1881298678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -108723,6 +108724,51 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1210639032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1210639034}
+  - component: {fileID: 1210639033}
+  m_Layer: 0
+  m_Name: '***SAVE MANAGER***'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1210639033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210639032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c9ae7ca4e12e64eacf59cead0aa693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: Savedata.json
+--- !u!4 &1210639034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210639032}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 235.28008, y: 8.630255, z: 10.380226}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1218067377
 GameObject:
   m_ObjectHideFlags: 0
@@ -126518,6 +126564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxInventorySize: 30
   itemList: []
+  itemDataBase: {fileID: 11400000, guid: 128e365e6d7cc2d419520a003069459b, type: 2}
   shopData: {fileID: 11400000, guid: 53202fea4f3bc0a40829e9c2d34d4477, type: 2}
   minItemsAmount: 4
 --- !u!1 &1678417486
@@ -145704,12 +145751,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 88249614}
-  - {fileID: 1080058312}
-  - {fileID: 2084378677}
   - {fileID: 1588501866}
   - {fileID: 1457542205}
   - {fileID: 1619327462}
   - {fileID: 1273249189}
+  - {fileID: 1080058312}
+  - {fileID: 2084378677}
   m_Father: {fileID: 1881298678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -146343,6 +146390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxInventorySize: 10
   itemList: []
+  itemDataBase: {fileID: 11400000, guid: 128e365e6d7cc2d419520a003069459b, type: 2}
   materialStash: []
 --- !u!1 &2138892403
 GameObject:
@@ -147261,3 +147309,4 @@ SceneRoots:
   - {fileID: 1674561443}
   - {fileID: 2137022926}
   - {fileID: 164829534}
+  - {fileID: 1210639034}
