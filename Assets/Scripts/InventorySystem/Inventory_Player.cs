@@ -1,20 +1,52 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Inventory_Player : Inventory_Base
 {
-    private Player player;
+    public event Action<int> OnQuickSlotUsed;
+    public int gold = 10000;
+
     public List<Inventory_EquipmentSlot> equipList;
+    public Inventory_Storage storage { get ; private set; }
+
+    [Header("Quick Item Slots")]
+    public Inventory_Item[] quickItems = new Inventory_Item[2];
 
     protected override void Awake()
     {
         base.Awake();
-        player = GetComponent<Player>();
+        storage = FindFirstObjectByType<Inventory_Storage>();
+    }
+
+    public void SetQuickItemInSlot(int slotNumber, Inventory_Item itemToSet)
+    {
+        quickItems[slotNumber - 1] = itemToSet;
+        TriggerUpdateUI();
+    }
+
+    public void TryUseQuickItemInSlot(int passedSlotNumber)
+    {
+        int slotNumber = passedSlotNumber - 1;
+        var itemToUse = quickItems[slotNumber];
+
+        if (itemToUse == null)
+            return;
+
+        TryUseItem(itemToUse);
+
+        if (FindItem(itemToUse) == null)
+        {
+            quickItems[slotNumber] = FindSameItem(itemToUse);
+        }
+
+        TriggerUpdateUI();
+        OnQuickSlotUsed?.Invoke(slotNumber);
     }
 
     public void TryEquipItem(Inventory_Item item)
     {
-        var inventoryItem = FindItem(item.itemData);
+        var inventoryItem = FindItem(item);
         var matchingSlots = equipList.FindAll(slot => slot.slotType == item.itemData.itemType);
 
         // STEP 1 : Try to find empty slot and equip item
@@ -44,12 +76,12 @@ public class Inventory_Player : Inventory_Base
         slot.equipedItem.AddItemEffect(player);
 
         player.health.SetHealthToPercent(savaedHealthPercent);
-        RemoveItem(itemToEquip);
+        RemoveOneItem(itemToEquip);
     }
 
     public void UnequipItem(Inventory_Item itemToUnequip,bool replacingItem = false)
     {
-        if (CanAddItem() == false && replacingItem == false)
+        if (CanAddItem(itemToUnequip) == false && replacingItem  == false)
         {
             Debug.Log("No space!");
             return;
