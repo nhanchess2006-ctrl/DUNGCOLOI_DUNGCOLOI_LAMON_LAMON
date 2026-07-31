@@ -21,9 +21,8 @@ public class UI_Inventory : MonoBehaviour
     private void OnEnable()
     {
         if (inventory == null)
-        {
             return;
-        }
+
         UpdateUI();
     }
 

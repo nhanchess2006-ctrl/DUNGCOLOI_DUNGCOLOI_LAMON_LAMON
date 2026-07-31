@@ -66,47 +66,44 @@ public class UI_SkillTree : MonoBehaviour, ISaveable
 
     public void LoadData(GameData data)
     {
-        skillPoints = data.skillsPoints;
+        skillPoints = data.skillPoints;
 
         foreach (var node in allTreeNodes)
         {
             string skillName = node.skillData.displayName;
 
-            if (data.SkillsTreeUI.TryGetValue(skillName, out bool unlockeed) && unlockeed)
-                node.UnlockWithSaveData();
+            if (data.skillTreeUI.TryGetValue(skillName,out bool unlocked) && unlocked)
+                    node.UnlockWithSaveData();
         }
 
         foreach (var skill in skillManager.allSkills)
         {
-            if(data.skillUpgrades.TryGetValue(skill.GetSkillsType(), out SkillUpgradeType upgradeType))
+            if (data.skillUpgrades.TryGetValue(skill.GetSkillType(), out SkillUpgradeType upgradeType))
             {
-
                 var upgradeNode = allTreeNodes.FirstOrDefault(node => node.skillData.upgradeData.upgradeType == upgradeType);
 
-                foreach(var node in allTreeNodes)
-               if (upgradeNode != null)
-                        skill.SetSkillUpgrade(upgradeNode.skillData);
+                if (upgradeNode != null)
+                    skill.SetSkillUpgrade(upgradeNode.skillData);
             }
-                
         }
     }
 
     public void SaveData(ref GameData data)
     {
-        data.skillsPoints = skillPoints;
-        data.SkillsTreeUI.Clear();
+        data.skillPoints = skillPoints;
+        data.skillTreeUI.Clear();
         data.skillUpgrades.Clear();
 
         foreach (var node in allTreeNodes)
         {
             string skillName = node.skillData.displayName;
-            data.SkillsTreeUI[skillName] = node.isLocked;
+            data.skillTreeUI[skillName] = node.isUnlocked;
         }
+
 
         foreach (var skill in skillManager.allSkills)
         {
-            data.skillUpgrades[skill.GetSkillsType()] = skill.GetUpgrade();
+            data.skillUpgrades[skill.GetSkillType()] = skill.GetUpgrade();
         }
-
     }
 }

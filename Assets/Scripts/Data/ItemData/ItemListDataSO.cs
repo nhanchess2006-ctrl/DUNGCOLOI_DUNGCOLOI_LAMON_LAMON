@@ -11,9 +11,8 @@ public class ItemListDataSO : ScriptableObject
 
     public ItemDataSO GetItemData(string saveId)
     {
-        return itemList.FirstOrDefault(item => item != null && item.saveID == saveId);
+        return itemList.FirstOrDefault(item => item != null && item.saveId == saveId);
     }
-
 
 #if UNITY_EDITOR
     [ContextMenu("Auto-fill with all ItemDataSO")]
@@ -21,14 +20,13 @@ public class ItemListDataSO : ScriptableObject
     {
         string[] guids = AssetDatabase.FindAssets("t:ItemDataSO");
 
-        itemList = guids 
+        itemList = guids
             .Select(guid => AssetDatabase.LoadAssetAtPath<ItemDataSO>(AssetDatabase.GUIDToAssetPath(guid)))
-            .Where(itemList => itemList != null)
+            .Where(item => item != null)
             .ToArray();
 
         EditorUtility.SetDirty(this);
         AssetDatabase.SaveAssets();
-
     }
 #endif
 }
