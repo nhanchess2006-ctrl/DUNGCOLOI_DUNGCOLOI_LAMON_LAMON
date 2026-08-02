@@ -6,7 +6,11 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/p.enemy/nên/hurt.anim
   m_Name: hurt
+========
+  m_Name: npcMerchantIdle
+>>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Animations/Characters/npcMerchantIdle.anim
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,6 +25,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
+<<<<<<<< HEAD:Assets/p.enemy/nên/hurt.anim
       value: {fileID: 6067257785549436332, guid: 50d88f2634babe94fb64a218e7e2a001, type: 3}
     - time: 0.21666667
       value: {fileID: -5985867677779041342, guid: 50d88f2634babe94fb64a218e7e2a001, type: 3}
@@ -28,12 +33,25 @@ AnimationClip:
       value: {fileID: -3894228756597921260, guid: 50d88f2634babe94fb64a218e7e2a001, type: 3}
     - time: 0.6166667
       value: {fileID: 4544515124871229537, guid: 50d88f2634babe94fb64a218e7e2a001, type: 3}
+========
+      value: {fileID: 1105193851, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - time: 0.1
+      value: {fileID: 1813954494, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - time: 0.2
+      value: {fileID: 1983311322, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - time: 0.3
+      value: {fileID: -1345672514, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - time: 0.4
+      value: {fileID: -882473210, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - time: 0.5
+      value: {fileID: -1714855525, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+>>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Animations/Characters/npcMerchantIdle.anim
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 60
+  m_SampleRate: 10
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,16 +68,29 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
+<<<<<<<< HEAD:Assets/p.enemy/nên/hurt.anim
     - {fileID: 6067257785549436332, guid: 50d88f2634babe94fb64a218e7e2a001, type: 3}
     - {fileID: -5985867677779041342, guid: 50d88f2634babe94fb64a218e7e2a001, type: 3}
     - {fileID: -3894228756597921260, guid: 50d88f2634babe94fb64a218e7e2a001, type: 3}
     - {fileID: 4544515124871229537, guid: 50d88f2634babe94fb64a218e7e2a001, type: 3}
+========
+    - {fileID: 1105193851, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - {fileID: 1813954494, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - {fileID: 1983311322, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - {fileID: -1345672514, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - {fileID: -882473210, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+    - {fileID: -1714855525, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
+>>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Animations/Characters/npcMerchantIdle.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<<< HEAD:Assets/p.enemy/nên/hurt.anim
     m_StopTime: 0.6333333
+========
+    m_StopTime: 0.6
+>>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Animations/Characters/npcMerchantIdle.anim
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

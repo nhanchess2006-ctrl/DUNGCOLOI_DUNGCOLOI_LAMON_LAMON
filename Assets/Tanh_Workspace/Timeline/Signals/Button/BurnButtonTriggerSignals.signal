@@ -9,6 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<<< HEAD:Assets/Tanh_Workspace/Timeline/Signals/Button/BurnButtonTriggerSignals.signal
   m_Script: {fileID: 11500000, guid: d6fa2d92fc1b3f34da284357edf89c3b, type: 3}
   m_Name: BurnButtonTriggerSignals
   m_EditorClassIdentifier: 
+========
+  m_Script: {fileID: 11500000, guid: dd200bc0c360fdc42972dd941c72dccc, type: 3}
+  m_Name: List of items - Weapons to craft
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 11400000, guid: 45c4b1c1b037fc34785f05b61e2d61ad, type: 2}
+  - {fileID: 11400000, guid: 758ceb672c8d0a64fbf7b0e9f7b05773, type: 2}
+>>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Data/Item Data/List of items - Weapons to craft.asset
