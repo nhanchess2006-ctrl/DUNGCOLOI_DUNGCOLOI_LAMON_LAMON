@@ -167,8 +167,8 @@ public class Inventory_Storage : Inventory_Base
         {
             if (item != null && item.itemData != null)
             {
-                string saveId = item.itemData.saveID;
-                
+                string saveId = item.itemData.saveId;
+
 
                 if (data.storageItems.ContainsKey(saveId) == false)
                     data.storageItems[saveId] = 0;
@@ -178,11 +178,12 @@ public class Inventory_Storage : Inventory_Base
         }
 
         data.storageMaterials.Clear();
+
         foreach (var item in materialStash)
         {
             if (item != null && item.itemData != null)
             {
-                string saveId = item.itemData.saveID;
+                string saveId = item.itemData.saveId;
 
 
                 if (data.storageMaterials.ContainsKey(saveId) == false)
@@ -193,7 +194,6 @@ public class Inventory_Storage : Inventory_Base
         }
     }
 
-
     public override void LoadData(GameData data)
     {
         itemList.Clear();
@@ -201,51 +201,45 @@ public class Inventory_Storage : Inventory_Base
 
         foreach (var entry in data.storageItems)
         {
-            string saveid = entry.Key;
+            string saveId = entry.Key;
             int stackSize = entry.Value;
 
-            ItemDataSO itemData = itemDataBase.GetItemData(saveid);
+            ItemDataSO itemData = itemDataBase.GetItemData(saveId);
+
             if (itemData == null)
             {
-                Debug.LogWarning("Item not found : " + saveid);
+                Debug.LogWarning("Item not found: " + saveId);
                 continue;
             }
 
+            Inventory_Item itemToLoad = new Inventory_Item(itemData);
+
             for (int i = 0; i < stackSize; i++)
             {
-                Inventory_Item itemToLoad = new Inventory_Item(itemData);
                 AddItem(itemToLoad);
             }
         }
 
-
         foreach (var entry in data.storageMaterials)
         {
-            string saveid = entry.Key;
+            string saveId = entry.Key;
             int stackSize = entry.Value;
 
-            ItemDataSO itemData = itemDataBase.GetItemData(saveid);
+            ItemDataSO itemData = itemDataBase.GetItemData(saveId);
+
             if (itemData == null)
             {
-                Debug.LogWarning("Item not found : " + saveid);
+                Debug.LogWarning("Item not found: " + saveId);
                 continue;
             }
 
+            Inventory_Item itemToLoad = new Inventory_Item(itemData);
+
             for (int i = 0; i < stackSize; i++)
             {
-                Inventory_Item itemToLoad = new Inventory_Item(itemData);
                 AddMaterialToStash(itemToLoad);
             }
+
         }
-
     }
-
-
-
-
-
-
-
-
-
 }

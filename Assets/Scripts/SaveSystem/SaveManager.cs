@@ -1,24 +1,31 @@
-using NUnit.Framework;
-using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Collections;
+using UnityEngine;
+
 public class SaveManager : MonoBehaviour
 {
+    public static SaveManager instance;
+
     private FileDataHandler dataHandler;
     private GameData gameData;
     private List<ISaveable> allSaveables;
 
+    [SerializeField] private string fileName = "unityalexdev.json";
+    [SerializeField] private bool encryptData = true;
 
-    [SerializeField] private string fileName = "Savedata.json";
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private IEnumerator Start()
     {
         Debug.Log(Application.persistentDataPath);
-        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
+        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName,encryptData);
         allSaveables = FindISaveables();
 
-        yield return new WaitForSeconds(0.1f);
+        yield return null;
         LoadGame();
     }
 
@@ -28,39 +35,39 @@ public class SaveManager : MonoBehaviour
 
         if (gameData == null)
         {
-            Debug.Log("No save data found, creating new save");
+            Debug.Log("No save data found, creating new save!");
             gameData = new GameData();
             return;
         }
 
         foreach (var saveable in allSaveables)
-        {
             saveable.LoadData(gameData);
-        }
     }
 
     public void SaveGame()
     {
-        foreach (var saveable in allSaveables)
+        foreach(var saveable in allSaveables)
             saveable.SaveData(ref gameData);
 
         dataHandler.SaveData(gameData);
-
     }
 
-    [ContextMenu("Delete save data")]
+    public GameData GetGameData() => gameData;
 
-    public void DeteleSaveData()
+    [ContextMenu("*** Delete save data ***")]
+    public void DeleteSaveData()
     {
-        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
+        dataHandler = new FileDataHandler(Application.persistentDataPath, fileName, encryptData);
         dataHandler.Delete();
-    }
 
+        LoadGame();
+    }
 
     private void OnApplicationQuit()
     {
         SaveGame();
     }
+
     private List<ISaveable> FindISaveables()
     {
         return 
@@ -68,5 +75,4 @@ public class SaveManager : MonoBehaviour
             .OfType<ISaveable>()
             .ToList();
     }
-
 }
