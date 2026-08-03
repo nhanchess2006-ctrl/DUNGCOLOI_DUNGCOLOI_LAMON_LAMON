@@ -363,7 +363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632870463163312582}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FallPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 5277217314904081067}
   - component: {fileID: 7510687553267110289}
   - component: {fileID: 7345472961015609842}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FallOb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

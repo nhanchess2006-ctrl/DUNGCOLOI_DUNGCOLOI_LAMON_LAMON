@@ -90739,10 +90739,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1103954619}
-  - {fileID: 481639535}
-  - {fileID: 1015709702}
   - {fileID: 949384836}
   - {fileID: 163007248}
+  - {fileID: 481639535}
+  - {fileID: 1015709702}
   m_Father: {fileID: 1483933312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -123777,6 +123777,10 @@ PrefabInstance:
     - target: {fileID: 4943681871428284670, guid: 321dc20480ac65a4d91f05709a5aea33, type: 3}
       propertyPath: m_Name
       value: FallingObject_Trap_System
+      objectReference: {fileID: 0}
+    - target: {fileID: 7345472961015609842, guid: 321dc20480ac65a4d91f05709a5aea33, type: 3}
+      propertyPath: triggerOnce
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
