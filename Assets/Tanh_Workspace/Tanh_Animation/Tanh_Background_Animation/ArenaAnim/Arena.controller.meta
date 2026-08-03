@@ -1,12 +1,8 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Tanh_Workspace/Tanh_Animation/Tanh_Background_Animation/ArenaAnim/Arena.controller.meta
-guid: 45eaa1bfdab016f4796c323712291270
-========
-guid: 88c077b58f0ecec40856c42609e09e88
->>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Data/Item Data/List of items - Weapons to craft.asset.meta
+guid: bc0bd26b10d4fec44afa8c3386dbf82f
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
+  mainObjectFileID: 9100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

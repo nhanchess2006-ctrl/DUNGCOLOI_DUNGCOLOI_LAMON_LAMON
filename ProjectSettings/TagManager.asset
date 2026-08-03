@@ -39,11 +39,29 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background0000
+    uniqueID: 170071913
+    locked: 0
+  - name: Background00
+    uniqueID: 1391372529
+    locked: 0
+  - name: NpcBack
+    uniqueID: 373810651
+    locked: 0
   - name: Background
     uniqueID: 596823231
     locked: 0
   - name: Ground
     uniqueID: 1379488757
+    locked: 0
+  - name: NpcFront
+    uniqueID: 2859012021
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1831899741
     locked: 0
   - name: Chest
     uniqueID: 551191945
@@ -51,11 +69,8 @@ TagManager:
   - name: Enemy
     uniqueID: 3500169307
     locked: 0
-  - name: Player
-    uniqueID: 1831899741
-    locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: UI
+    uniqueID: 1341765331
     locked: 0
   m_RenderingLayers:
   - Default

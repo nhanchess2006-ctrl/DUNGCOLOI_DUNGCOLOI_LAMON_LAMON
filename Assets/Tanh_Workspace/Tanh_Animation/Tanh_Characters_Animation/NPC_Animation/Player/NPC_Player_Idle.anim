@@ -6,11 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Tanh_Workspace/Tanh_Animation/Tanh_Characters_Animation/NPC_Animation/Player/NPC_Player_Idle.anim
   m_Name: NPC_Player_Idle
-========
-  m_Name: npcBlacksmithIdle
->>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Animations/Characters/npcBlacksmithIdle.anim
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -25,39 +21,25 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-<<<<<<<< HEAD:Assets/Tanh_Workspace/Tanh_Animation/Tanh_Characters_Animation/NPC_Animation/Player/NPC_Player_Idle.anim
-      value: {fileID: 1860635371, guid: fc465df9719025d499228a63a0847593, type: 3}
+      value: {fileID: 286124887, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
     - time: 0.1
-      value: {fileID: -1920238846, guid: fc465df9719025d499228a63a0847593, type: 3}
+      value: {fileID: 1166121056, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
     - time: 0.2
-      value: {fileID: -137886482, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - time: 0.3
-      value: {fileID: 1752781879, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - time: 0.4
-      value: {fileID: 2007303435, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - time: 0.5
-      value: {fileID: -534262790, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - time: 0.6
-      value: {fileID: 1860635371, guid: fc465df9719025d499228a63a0847593, type: 3}
-========
-      value: {fileID: -1983849616, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - time: 0.1
-      value: {fileID: 1946941144, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - time: 0.2
-      value: {fileID: 1686709208, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - time: 0.3
-      value: {fileID: -662996830, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - time: 0.4
-      value: {fileID: -671921229, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - time: 0.5
-      value: {fileID: -1166061722, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
->>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Animations/Characters/npcBlacksmithIdle.anim
+      value: {fileID: -153149733, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - time: 0.28333333
+      value: {fileID: -373132033, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - time: 0.38333333
+      value: {fileID: -1998730806, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - time: 0.48333332
+      value: {fileID: -220840477, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - time: 0.5833333
+      value: {fileID: 286124887, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 10
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -74,28 +56,19 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-<<<<<<<< HEAD:Assets/Tanh_Workspace/Tanh_Animation/Tanh_Characters_Animation/NPC_Animation/Player/NPC_Player_Idle.anim
-    - {fileID: 1860635371, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - {fileID: -1920238846, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - {fileID: -137886482, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - {fileID: 1752781879, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - {fileID: 2007303435, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - {fileID: -534262790, guid: fc465df9719025d499228a63a0847593, type: 3}
-    - {fileID: 1860635371, guid: fc465df9719025d499228a63a0847593, type: 3}
-========
-    - {fileID: -1983849616, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - {fileID: 1946941144, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - {fileID: 1686709208, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - {fileID: -662996830, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - {fileID: -671921229, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
-    - {fileID: -1166061722, guid: 9f069c7c2bd74e148acb9fdf344c5fac, type: 3}
->>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/Animations/Characters/npcBlacksmithIdle.anim
+    - {fileID: 286124887, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - {fileID: 1166121056, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - {fileID: -153149733, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - {fileID: -373132033, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - {fileID: -1998730806, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - {fileID: -220840477, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
+    - {fileID: 286124887, guid: bf91c7744f56e644c97017d9c06c8d5a, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6
+    m_StopTime: 0.59999996
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

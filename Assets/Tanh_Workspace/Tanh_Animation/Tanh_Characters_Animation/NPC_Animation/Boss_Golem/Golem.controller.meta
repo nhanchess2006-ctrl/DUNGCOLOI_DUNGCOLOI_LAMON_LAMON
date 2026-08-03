@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Tanh_Workspace/Tanh_Animation/Tanh_Characters_Animation/NPC_Animation/Boss_Golem/Golem.controller.meta
-guid: 4974da9f4761b0f4e98130bfe0b6bd60
-========
-guid: 45eaa1bfdab016f4796c323712291270
->>>>>>>> 0afa7b052637f7918e9d1b0ed6e9c4117ef01d42:Assets/p.enemy/nên/Golem_1_idle_0.controller.meta
+guid: 046ef5e718bcc6e4ca737eaaef74c11c
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

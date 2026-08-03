@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 8d207140e7d972343890b3aa2754a224
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3408664281186069293
+    second: Leaf Twirl_0
+  - first:
+      213: 6988089464871616244
+    second: Leaf Twirl_1
+  - first:
+      213: 8432729999222376312
+    second: Leaf Twirl_2
+  - first:
+      213: 381750220167408443
+    second: Leaf Twirl_3
+  - first:
+      213: -8083193678722644381
+    second: Leaf Twirl_4
+  - first:
+      213: 5365399489394415201
+    second: Leaf Twirl_5
+  - first:
+      213: 2139788089554568121
+    second: Leaf Twirl_6
+  - first:
+      213: -2622861511759589440
+    second: Leaf Twirl_7
+  - first:
+      213: -4133590383401902592
+    second: Leaf Twirl_8
+  - first:
+      213: -1685457804164637746
+    second: Leaf Twirl_9
+  - first:
+      213: 6801434403221747885
+    second: Leaf Twirl_10
+  - first:
+      213: 1434769354198023895
+    second: Leaf Twirl_11
+  - first:
+      213: 4985572182657167250
+    second: Leaf Twirl_12
+  - first:
+      213: -3685360919301975667
+    second: Leaf Twirl_13
+  - first:
+      213: 3817509280926380815
+    second: Leaf Twirl_14
+  - first:
+      213: 6430904377972204579
+    second: Leaf Twirl_15
+  - first:
+      213: -5783023437580520282
+    second: Leaf Twirl_16
+  - first:
+      213: -2561174900136734869
+    second: Leaf Twirl_17
+  - first:
+      213: -7471132895934539559
+    second: Leaf Twirl_18
+  - first:
+      213: -7083961738066725475
+    second: Leaf Twirl_19
+  - first:
+      213: -2686340127250324995
+    second: Leaf Twirl_20
+  - first:
+      213: 2824650953507861244
+    second: Leaf Twirl_21
+  - first:
+      213: 4394105330431184164
+    second: Leaf Twirl_22
+  - first:
+      213: -1285352280938856875
+    second: Leaf Twirl_23
+  - first:
+      213: -7798585793653488357
+    second: Leaf Twirl_24
+  - first:
+      213: -2452153917015740568
+    second: Leaf Twirl_25
+  - first:
+      213: 2827259140417294398
+    second: Leaf Twirl_26
+  - first:
+      213: -8677637356149642187
+    second: Leaf Twirl_27
+  - first:
+      213: 2839592769179094402
+    second: Leaf Twirl_28
+  - first:
+      213: 7478409900390009927
+    second: Leaf Twirl_29
+  - first:
+      213: -238891132822639876
+    second: Leaf Twirl_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Leaf Twirl_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 305
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b68a69a120e4f20800000000000000
+      internalID: 3408664281186069293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 303
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe7254085eaaf060800000000000000
+      internalID: 6988089464871616244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 303
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8770e6a7143170570800000000000000
+      internalID: 8432729999222376312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 303
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b610a7dcf3c4500800000000000000
+      internalID: 381750220167408443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 272
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366cd010d2ab2df80800000000000000
+      internalID: -8083193678722644381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 271
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1669a63986ab57a40800000000000000
+      internalID: 5365399489394415201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 270
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3038c2eed02bd10800000000000000
+      internalID: 2139788089554568121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 267
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf86800a59b99bd0800000000000000
+      internalID: -2622861511759589440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 266
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00edb5e627982a6c0800000000000000
+      internalID: -4133590383401902592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 234
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb5bda9e0d0c98e0800000000000000
+      internalID: -1685457804164637746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 234
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8372fdd8c836e50800000000000000
+      internalID: 6801434403221747885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 234
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7def69b302359e310800000000000000
+      internalID: 1434769354198023895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_12
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 235
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f69554c7f403540800000000000000
+      internalID: 4985572182657167250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 234
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8116ef05c7fadcc0800000000000000
+      internalID: -3685360919301975667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 201
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03bf5807748af430800000000000000
+      internalID: 3817509280926380815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 200
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324a98995792f3950800000000000000
+      internalID: 6430904377972204579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 199
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a43143c2d29ebfa0800000000000000
+      internalID: -5783023437580520282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 198
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f04bd7ff0e47cd0800000000000000
+      internalID: -2561174900136734869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 196
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d816140734315890800000000000000
+      internalID: -7471132895934539559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95f218e456b0bd90800000000000000
+      internalID: -7083961738066725475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 163
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1ed5913e338bad0800000000000000
+      internalID: -2686340127250324995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 163
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2fd4a931d233720800000000000000
+      internalID: 2824650953507861244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d400e548ffafc30800000000000000
+      internalID: 4394105330431184164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_23
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 164
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55eb66b19e2892ee0800000000000000
+      internalID: -1285352280938856875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 131
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1540e21a8bd5c390800000000000000
+      internalID: -7798585793653488357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_25
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 131
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fa1b9210338fdd0800000000000000
+      internalID: -2452153917015740568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 130
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e309c8075317c3720800000000000000
+      internalID: 2827259140417294398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_27
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 129
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c6a09fcc6d29780800000000000000
+      internalID: -8677637356149642187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 128
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d00b92492486720800000000000000
+      internalID: 2839592769179094402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 95
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cc28d9e26a8c760800000000000000
+      internalID: 7478409900390009927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf Twirl_30
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 95
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaad18c7c94facf0800000000000000
+      internalID: -238891132822639876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Leaf Twirl_0: 3408664281186069293
+      Leaf Twirl_1: 6988089464871616244
+      Leaf Twirl_10: 6801434403221747885
+      Leaf Twirl_11: 1434769354198023895
+      Leaf Twirl_12: 4985572182657167250
+      Leaf Twirl_13: -3685360919301975667
+      Leaf Twirl_14: 3817509280926380815
+      Leaf Twirl_15: 6430904377972204579
+      Leaf Twirl_16: -5783023437580520282
+      Leaf Twirl_17: -2561174900136734869
+      Leaf Twirl_18: -7471132895934539559
+      Leaf Twirl_19: -7083961738066725475
+      Leaf Twirl_2: 8432729999222376312
+      Leaf Twirl_20: -2686340127250324995
+      Leaf Twirl_21: 2824650953507861244
+      Leaf Twirl_22: 4394105330431184164
+      Leaf Twirl_23: -1285352280938856875
+      Leaf Twirl_24: -7798585793653488357
+      Leaf Twirl_25: -2452153917015740568
+      Leaf Twirl_26: 2827259140417294398
+      Leaf Twirl_27: -8677637356149642187
+      Leaf Twirl_28: 2839592769179094402
+      Leaf Twirl_29: 7478409900390009927
+      Leaf Twirl_3: 381750220167408443
+      Leaf Twirl_30: -238891132822639876
+      Leaf Twirl_4: -8083193678722644381
+      Leaf Twirl_5: 5365399489394415201
+      Leaf Twirl_6: 2139788089554568121
+      Leaf Twirl_7: -2622861511759589440
+      Leaf Twirl_8: -4133590383401902592
+      Leaf Twirl_9: -1685457804164637746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

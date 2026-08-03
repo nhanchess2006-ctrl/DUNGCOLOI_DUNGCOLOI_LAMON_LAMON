@@ -267,7 +267,6 @@ GameObject:
   - component: {fileID: 825075807}
   - component: {fileID: 825075806}
   - component: {fileID: 825075805}
-  - component: {fileID: 825075808}
   m_Layer: 0
   m_Name: IntroVideo
   m_TagString: Untagged
@@ -423,20 +422,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &825075808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825075804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64625a369e21e984ea3e7ecc76e74c7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 825075806}
-  sceneToLoad: IntroScene
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
