@@ -26,10 +26,14 @@ public class Entity_Combat : MonoBehaviour
     {
         foreach (var target in GetDetectedColliders())
         {
+               Debug.Log("Đánh trúng: " + target.name);
             IDamageable damageable = target.GetComponent<IDamageable>();
 
             if (damageable == null)
+            
                 continue; // skip target, go to next target
+
+              Debug.Log("Có IDamageable");
 
             AttackData attackData = stats.GetAttackData(basicAttackScale);
             Entity_StatusHandler statusHandler = target.GetComponent<Entity_StatusHandler>();
