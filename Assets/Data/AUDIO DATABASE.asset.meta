@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Data/AUDIO DATABASE.asset.meta
 guid: bf39dc386ed53c441a6a87ccbdcee592
+=======
+guid: e2d7e0270bb4d644eb2efd951f182e26
+>>>>>>> origin/Kien_Tanh:Assets/Tanh_Workspace/Timeline/IntroScene.playable.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

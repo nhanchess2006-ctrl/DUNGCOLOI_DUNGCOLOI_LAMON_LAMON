@@ -142,6 +142,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+<<<<<<< HEAD:Assets/Graphics/Characters/Archer Elf/Archer Elf Walk.png.meta
     - serializedVersion: 2
       name: Archer Elf Walk_1
       rect:
@@ -296,6 +297,8 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+>>>>>>> origin/Kien_Tanh:Assets/p.map2/Mossy - Hanging Plants.png.meta
     outline: []
     customData: 
     physicsShape: []
@@ -310,6 +313,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD:Assets/Graphics/Characters/Archer Elf/Archer Elf Walk.png.meta
       Archer Elf Walk_0: -1604472712
       Archer Elf Walk_1: -1687961317
       Archer Elf Walk_2: 410496063
@@ -318,6 +322,9 @@ TextureImporter:
       Archer Elf Walk_5: 1874281556
       Archer Elf Walk_6: -1324340764
       Archer Elf Walk_7: -2133448702
+=======
+      Mossy - Hanging Plants_0: -6297841393305379348
+>>>>>>> origin/Kien_Tanh:Assets/p.map2/Mossy - Hanging Plants.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

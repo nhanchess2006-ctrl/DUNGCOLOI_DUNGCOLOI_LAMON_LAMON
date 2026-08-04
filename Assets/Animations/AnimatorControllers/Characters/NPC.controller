@@ -10,6 +10,9 @@ AnimatorState:
   m_Name: npcMerchantIdle
   m_Speed: 1
   m_CycleOffset: 0
+<<<<<<<< HEAD:Assets/Tanh_Workspace/Tanh_Animation/Tanh_Characters_Animation/NPC_Animation/LoiDoiTruong/NPCLoiDoiTruong.controller
+  m_Transitions: []
+========
   m_Transitions:
   - {fileID: 7018587897099261831}
   m_StateMachineBehaviours: []
