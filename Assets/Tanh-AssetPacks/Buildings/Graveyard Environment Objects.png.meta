@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 517831e828356654892f7bdc8dff59ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7753786886227316134
+    second: Graveyard Environment Objects_0
+  - first:
+      213: -2014269528158205183
+    second: Graveyard Environment Objects_1
+  - first:
+      213: 6160770608769216618
+    second: Graveyard Environment Objects_2
+  - first:
+      213: 3634208137520925443
+    second: Graveyard Environment Objects_3
+  - first:
+      213: -4405147172594219737
+    second: Graveyard Environment Objects_4
+  - first:
+      213: -3636272934235646135
+    second: Graveyard Environment Objects_5
+  - first:
+      213: 1962167959582827856
+    second: Graveyard Environment Objects_6
+  - first:
+      213: -428022166895262840
+    second: Graveyard Environment Objects_7
+  - first:
+      213: 6738347220362355250
+    second: Graveyard Environment Objects_8
+  - first:
+      213: 6132219123056864170
+    second: Graveyard Environment Objects_9
+  - first:
+      213: -3888397956352639289
+    second: Graveyard Environment Objects_10
+  - first:
+      213: 8785685808703670714
+    second: Graveyard Environment Objects_11
+  - first:
+      213: -4512536601400351991
+    second: Graveyard Environment Objects_12
+  - first:
+      213: 8509628062624481103
+    second: Graveyard Environment Objects_13
+  - first:
+      213: 4252071016930996138
+    second: Graveyard Environment Objects_14
+  - first:
+      213: 9133817704462401369
+    second: Graveyard Environment Objects_15
+  - first:
+      213: 7771003722526637981
+    second: Graveyard Environment Objects_16
+  - first:
+      213: -1739819241613116468
+    second: Graveyard Environment Objects_17
+  - first:
+      213: 5132452488721213122
+    second: Graveyard Environment Objects_18
+  - first:
+      213: 6144397631932208646
+    second: Graveyard Environment Objects_19
+  - first:
+      213: 5293500690627468661
+    second: Graveyard Environment Objects_20
+  - first:
+      213: 5958710465927803897
+    second: Graveyard Environment Objects_21
+  - first:
+      213: 6176901044684229677
+    second: Graveyard Environment Objects_22
+  - first:
+      213: -3600577275709889452
+    second: Graveyard Environment Objects_23
+  - first:
+      213: 3233147644835327888
+    second: Graveyard Environment Objects_24
+  - first:
+      213: 3910269165718909476
+    second: Graveyard Environment Objects_25
+  - first:
+      213: 1330391514117427232
+    second: Graveyard Environment Objects_26
+  - first:
+      213: -4786497751188794071
+    second: Graveyard Environment Objects_27
+  - first:
+      213: -816349496145565394
+    second: Graveyard Environment Objects_28
+  - first:
+      213: 7138153834313310908
+    second: Graveyard Environment Objects_29
+  - first:
+      213: 4111028268303505362
+    second: Graveyard Environment Objects_30
+  - first:
+      213: 7055853705460658126
+    second: Graveyard Environment Objects_31
+  - first:
+      213: -8565588423479853746
+    second: Graveyard Environment Objects_32
+  - first:
+      213: 1519636981459613483
+    second: Graveyard Environment Objects_33
+  - first:
+      213: 3475403501844833780
+    second: Graveyard Environment Objects_34
+  - first:
+      213: -6023244835015058007
+    second: Graveyard Environment Objects_35
+  - first:
+      213: -5543277767197169108
+    second: Graveyard Environment Objects_36
+  - first:
+      213: 1963520727654978986
+    second: Graveyard Environment Objects_37
+  - first:
+      213: -153274830401574742
+    second: Graveyard Environment Objects_38
+  - first:
+      213: -5916213281604331490
+    second: Graveyard Environment Objects_39
+  - first:
+      213: -4461719204711415817
+    second: Graveyard Environment Objects_40
+  - first:
+      213: -8942882886601345508
+    second: Graveyard Environment Objects_41
+  - first:
+      213: 1790064296283541035
+    second: Graveyard Environment Objects_42
+  - first:
+      213: 4494066712309534661
+    second: Graveyard Environment Objects_43
+  - first:
+      213: -6899705508081524820
+    second: Graveyard Environment Objects_44
+  - first:
+      213: -6021912173855844107
+    second: Graveyard Environment Objects_45
+  - first:
+      213: -2903514830234372931
+    second: Graveyard Environment Objects_46
+  - first:
+      213: 5392508144095132973
+    second: Graveyard Environment Objects_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 223
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad49a9771cfa9b60800000000000000
+      internalID: 7753786886227316134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 223
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b8c344980eb04e0800000000000000
+      internalID: -2014269528158205183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 223
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a603b5e3a347f7550800000000000000
+      internalID: 6160770608769216618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 223
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bc4c4db0d4f6230800000000000000
+      internalID: 3634208137520925443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 223
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725843a6cf5cdd2c0800000000000000
+      internalID: -4405147172594219737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 223
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9475488380d598dc0800000000000000
+      internalID: -3636272934235646135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 223
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055669cfc550b3b10800000000000000
+      internalID: 1962167959582827856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 207
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88307326b1c5f0af0800000000000000
+      internalID: -428022166895262840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 175
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23260fa781b638d50800000000000000
+      internalID: 6738347220362355250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_9
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 175
+        width: 89
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab69a27dc40a1550800000000000000
+      internalID: 6132219123056864170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 191
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cefe3a09a2a90ac0800000000000000
+      internalID: -3888397956352639289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 207
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab909f7c1b60de970800000000000000
+      internalID: 8785685808703670714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 207
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90365959edf3061c0800000000000000
+      internalID: -4512536601400351991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 207
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f7d6313a5481670800000000000000
+      internalID: 8509628062624481103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 207
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafe7ebbf04620b30800000000000000
+      internalID: 4252071016930996138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 191
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fb7a52fc6d1ce70800000000000000
+      internalID: 9133817704462401369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 207
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f307d86b628db60800000000000000
+      internalID: 7771003722526637981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 207
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbb2422e9bead7e0800000000000000
+      internalID: -1739819241613116468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c62cc878522a3740800000000000000
+      internalID: 5132452488721213122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60612128719454550800000000000000
+      internalID: 6144397631932208646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 191
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d922bf4da467940800000000000000
+      internalID: 5293500690627468661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 191
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f37701299791b250800000000000000
+      internalID: 5958710465927803897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 191
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c842506c2c8b550800000000000000
+      internalID: 6176901044684229677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 159
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454e7fe5b0e280ec0800000000000000
+      internalID: -3600577275709889452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 159
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09feccc27a27edc20800000000000000
+      internalID: 3233147644835327888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 159
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422b6d6b611144630800000000000000
+      internalID: 3910269165718909476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020d92b8800867210800000000000000
+      internalID: 1330391514117427232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_27
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 159
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9259f2eb7a1f29db0800000000000000
+      internalID: -4786497751188794071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 159
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29acad557ebba4f0800000000000000
+      internalID: -816349496145565394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_29
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 79
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2665eb711df0360800000000000000
+      internalID: 7138153834313310908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_30
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 79
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7d1d9cd6e4d0930800000000000000
+      internalID: 4111028268303505362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf2b15cf8d6be160800000000000000
+      internalID: 7055853705460658126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 95
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4df84616bae02980800000000000000
+      internalID: -8565588423479853746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_33
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 95
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27727388c5d61510800000000000000
+      internalID: 1519636981459613483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f52c9a421d1b3030800000000000000
+      internalID: 3475403501844833780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_35
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad98bd2cb2296ca0800000000000000
+      internalID: -6023244835015058007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 31
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a64e28d325213b0800000000000000
+      internalID: -5543277767197169108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5ddf8d2b3df3b10800000000000000
+      internalID: 1963520727654978986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8e7e49a557fddf0800000000000000
+      internalID: -153274830401574742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_39
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e189686ad5365eda0800000000000000
+      internalID: -5916213281604331490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_40
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff33a3c50ac412c0800000000000000
+      internalID: -4461719204711415817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_41
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16f434656f74e380800000000000000
+      internalID: -8942882886601345508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_42
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e07194ef597d810800000000000000
+      internalID: 1790064296283541035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf0e104dd12e5e30800000000000000
+      internalID: 4494066712309534661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf9ef785625f30a0800000000000000
+      internalID: -6899705508081524820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8d8b888cedd6ca0800000000000000
+      internalID: -6021912173855844107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db43dc735a4a4b7d0800000000000000
+      internalID: -2903514830234372931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graveyard Environment Objects_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2df039169906da40800000000000000
+      internalID: 5392508144095132973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Graveyard Environment Objects_0: 7753786886227316134
+      Graveyard Environment Objects_1: -2014269528158205183
+      Graveyard Environment Objects_10: -3888397956352639289
+      Graveyard Environment Objects_11: 8785685808703670714
+      Graveyard Environment Objects_12: -4512536601400351991
+      Graveyard Environment Objects_13: 8509628062624481103
+      Graveyard Environment Objects_14: 4252071016930996138
+      Graveyard Environment Objects_15: 9133817704462401369
+      Graveyard Environment Objects_16: 7771003722526637981
+      Graveyard Environment Objects_17: -1739819241613116468
+      Graveyard Environment Objects_18: 5132452488721213122
+      Graveyard Environment Objects_19: 6144397631932208646
+      Graveyard Environment Objects_2: 6160770608769216618
+      Graveyard Environment Objects_20: 5293500690627468661
+      Graveyard Environment Objects_21: 5958710465927803897
+      Graveyard Environment Objects_22: 6176901044684229677
+      Graveyard Environment Objects_23: -3600577275709889452
+      Graveyard Environment Objects_24: 3233147644835327888
+      Graveyard Environment Objects_25: 3910269165718909476
+      Graveyard Environment Objects_26: 1330391514117427232
+      Graveyard Environment Objects_27: -4786497751188794071
+      Graveyard Environment Objects_28: -816349496145565394
+      Graveyard Environment Objects_29: 7138153834313310908
+      Graveyard Environment Objects_3: 3634208137520925443
+      Graveyard Environment Objects_30: 4111028268303505362
+      Graveyard Environment Objects_31: 7055853705460658126
+      Graveyard Environment Objects_32: -8565588423479853746
+      Graveyard Environment Objects_33: 1519636981459613483
+      Graveyard Environment Objects_34: 3475403501844833780
+      Graveyard Environment Objects_35: -6023244835015058007
+      Graveyard Environment Objects_36: -5543277767197169108
+      Graveyard Environment Objects_37: 1963520727654978986
+      Graveyard Environment Objects_38: -153274830401574742
+      Graveyard Environment Objects_39: -5916213281604331490
+      Graveyard Environment Objects_4: -4405147172594219737
+      Graveyard Environment Objects_40: -4461719204711415817
+      Graveyard Environment Objects_41: -8942882886601345508
+      Graveyard Environment Objects_42: 1790064296283541035
+      Graveyard Environment Objects_43: 4494066712309534661
+      Graveyard Environment Objects_44: -6899705508081524820
+      Graveyard Environment Objects_45: -6021912173855844107
+      Graveyard Environment Objects_46: -2903514830234372931
+      Graveyard Environment Objects_47: 5392508144095132973
+      Graveyard Environment Objects_5: -3636272934235646135
+      Graveyard Environment Objects_6: 1962167959582827856
+      Graveyard Environment Objects_7: -428022166895262840
+      Graveyard Environment Objects_8: 6738347220362355250
+      Graveyard Environment Objects_9: 6132219123056864170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
