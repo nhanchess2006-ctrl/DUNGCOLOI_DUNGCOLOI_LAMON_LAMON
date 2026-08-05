@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
 public class Entity_StatusHandler : MonoBehaviour
@@ -10,11 +9,11 @@ public class Entity_StatusHandler : MonoBehaviour
     private Entity_Health entityHeath;
     private ElementType currentEffect = ElementType.None;
 
-    [Header("Electrify effect details")]
+    [Header("Shock effect details")]
     [SerializeField] private GameObject lighingStrikeVfx;
     [SerializeField] private float currentCharge;
     [SerializeField] private float maximumCharge = 1;
-    private Coroutine electrifyCo;
+    private Coroutine shockCo;
 
 
     private void Awake()
@@ -25,7 +24,26 @@ public class Entity_StatusHandler : MonoBehaviour
         entityVfx = GetComponent<Entity_VFX>();
     }
 
-    public void ApplyElectrifyEffect(float duration,float damage,float charge)
+    public void RemoveAllNegativeEffects()
+    {
+        StopAllCoroutines();
+        currentEffect = ElementType.None;
+        entityVfx.StopAllVfx();
+    }
+
+    public void ApplyStatusEffect(ElementType element,ElementalEffectData effectData)
+    {
+        if (element == ElementType.Ice && CanBeApplied(ElementType.Ice))
+            ApplyChillEffect(effectData.chillDuration, effectData.chillSlowMultiplier);
+
+        if (element == ElementType.Fire && CanBeApplied(ElementType.Fire))
+            ApplyBurnEffect(effectData.burnDuratoin, effectData.totalBurnDamage);
+
+        if (element == ElementType.Lightning && CanBeApplied(ElementType.Lightning))
+            ApplyShockEffect(effectData.shockDuration, effectData.shockDamage, effectData.shockCharge);
+    }
+
+    private void ApplyShockEffect(float duration,float damage,float charge)
     {
         float lightningResistance = entityStats.GetElementalResistance(ElementType.Lightning);
         float finalCharge = charge * (1 - lightningResistance);
@@ -34,17 +52,17 @@ public class Entity_StatusHandler : MonoBehaviour
         if (currentCharge >= maximumCharge)
         {
             DoLightningStrike(damage);
-            StopElectrifyEffect();
+            StopShockEffect();
             return;
         }
 
-        if (electrifyCo != null)
-            StopCoroutine(electrifyCo);
+        if (shockCo != null)
+            StopCoroutine(shockCo);
 
-        electrifyCo = StartCoroutine(ElectrifyEffectCo(duration));
+        shockCo = StartCoroutine(ShockEffectCo(duration));
     }
 
-    private void StopElectrifyEffect()
+    private void StopShockEffect()
     {
         currentEffect = ElementType.None;
         currentCharge = 0;
@@ -57,16 +75,16 @@ public class Entity_StatusHandler : MonoBehaviour
         entityHeath.ReduceHealth(damage);
     }
 
-    private IEnumerator ElectrifyEffectCo(float duration)
+    private IEnumerator ShockEffectCo(float duration)
     {
         currentEffect = ElementType.Lightning;
         entityVfx.PlayOnStatusVfx(duration, ElementType.Lightning);
 
         yield return new WaitForSeconds(duration);
-        StopElectrifyEffect();
+        StopShockEffect();
     }
 
-    public void ApplyBurnEffect(float duration, float fireDamage)
+    private void ApplyBurnEffect(float duration, float fireDamage)
     {
         float fireResistance = entityStats.GetElementalResistance(ElementType.Fire);
         float finalDamage = fireDamage * (1 - fireResistance);
@@ -94,7 +112,7 @@ public class Entity_StatusHandler : MonoBehaviour
         currentEffect = ElementType.None;
     }
 
-    public void ApplyChillEffect(float duration, float slowMultiplier)
+    private void ApplyChillEffect(float duration, float slowMultiplier)
     {
         float iceResistance = entityStats.GetElementalResistance(ElementType.Ice);
         float finalDuration = duration * (1 - iceResistance);

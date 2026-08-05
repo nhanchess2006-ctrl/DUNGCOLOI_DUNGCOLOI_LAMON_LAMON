@@ -9,7 +9,8 @@ public class Entity : MonoBehaviour
 
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
-    public Entity_Stats stats { get; private set; }
+    public Collider2D col { get; private set; }
+    public Entity_SFX sfx { get; private set; }
     protected StateMachine stateMachine;
 
 
@@ -17,7 +18,7 @@ public class Entity : MonoBehaviour
     public int facingDir { get; private set; } = 1;
 
     [Header("Collision detection")]
-    [SerializeField] protected LayerMask whatIsGround;
+    public LayerMask whatIsGround;
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private float wallCheckDistance;
     [SerializeField] private Transform groundCheck;
@@ -30,12 +31,12 @@ public class Entity : MonoBehaviour
     private bool isKnocked;
     private Coroutine knockbackCo;
     private Coroutine slowDownCo;
-
     protected virtual void Awake()
     {
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        stats = GetComponent<Entity_Stats>();
+        sfx = GetComponent<Entity_SFX>();
+        col = GetComponent<Collider2D>();
 
         stateMachine = new StateMachine();
     }
@@ -62,10 +63,15 @@ public class Entity : MonoBehaviour
 
     }
 
-    public virtual void SlowDownEntity(float duration, float slowMultiplier)
+    public virtual void SlowDownEntity(float duration, float slowMultiplier,bool canOverrideSlowEffect = false)
     {
-        if(slowDownCo != null)
-            StopCoroutine(slowDownCo);
+        if (slowDownCo != null)
+        {
+            if (canOverrideSlowEffect)
+                StopCoroutine(slowDownCo);
+            else
+                return;
+        }
 
         slowDownCo = StartCoroutine(SlowDownEntityCo(duration,slowMultiplier));
     }
@@ -73,6 +79,11 @@ public class Entity : MonoBehaviour
     protected virtual IEnumerator SlowDownEntityCo(float duration, float slowMultiplier)
     {
         yield return null;
+    }
+
+    public virtual void StopSlowDown()
+    {
+        slowDownCo = null;
     }
 
     public void ReciveKnockback(Vector2 knockback, float duration)

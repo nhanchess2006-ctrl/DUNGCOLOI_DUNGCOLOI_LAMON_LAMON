@@ -1,14 +1,25 @@
 using System;
 using System.Collections;
-using Unity.Cinemachine;
 using UnityEngine;
 
 public class Player : Entity
 {
+    public static Player instance;
     public static event Action OnPlayerDeath;
 
-    private UI ui;
+    public UI ui { get; private set; }
     public PlayerInputSet input { get; private set; }
+    public Player_SkillManager skillManager { get; private set; }
+    public Player_VFX vfx { get; private set; }
+    public Entity_Health health { get; private set; }
+    public Entity_StatusHandler statusHandler { get; private set; }
+    public Player_Combat combat { get; private set; }
+    public Inventory_Player inventory { get; private set; }
+    public Player_Stats stats { get; private set; }
+    public Player_QuestManager questManager { get; private set; }
+
+
+    #region State Variables
 
     public Player_IdleState idleState { get; private set; }
     public Player_MoveState moveState { get; private set; }
@@ -21,6 +32,10 @@ public class Player : Entity
     public Player_JumpAttackState jumpAttackState { get; private set; }
     public Player_DeadState deadState { get; private set; }
     public Player_CounterAttackState counterAttackState { get; private set; }
+    public Player_SwordThrowState swordThrowState { get; private set; }
+    public Player_DomainExpansionState domainExpansionState { get; private set; }
+
+    #endregion
 
     [Header("Attack details")]
     public Vector2[] attackVelocity;
@@ -29,6 +44,9 @@ public class Player : Entity
     public float comboResetTime = 1;
     private Coroutine queuedAttackCo;
 
+    [Header("Ultimate ability details")]
+    public float riseSpeed = 25;
+    public float riseMaxDistance = 3;
 
     [Header("Movement details")]
     public float moveSpeed;
@@ -42,14 +60,25 @@ public class Player : Entity
     public float dashDuration = .25f;
     public float dashSpeed = 20;
     public Vector2 moveInput { get; private set; }
+    public Vector2 mousePosition { get; private set; }
 
     protected override void Awake()
     {
         base.Awake();
+        instance = this;
 
         ui = FindAnyObjectByType<UI>();
-        input = new PlayerInputSet();
+        vfx = GetComponent<Player_VFX>();
+        health = GetComponent<Entity_Health>();
+        skillManager = GetComponent<Player_SkillManager>();
+        statusHandler = GetComponent<Entity_StatusHandler>();
+        combat = GetComponent<Player_Combat>();
+        inventory = GetComponent<Inventory_Player>();
+        stats = GetComponent<Player_Stats>();
+        questManager = GetComponent<Player_QuestManager>();
 
+        input = new PlayerInputSet();
+        ui.SetupControlsUI(input);
 
         idleState = new Player_IdleState(this, stateMachine, "idle");
         moveState = new Player_MoveState(this, stateMachine, "move");
@@ -62,6 +91,8 @@ public class Player : Entity
         jumpAttackState = new Player_JumpAttackState(this, stateMachine, "jumpAttack");
         deadState = new Player_DeadState(this, stateMachine, "dead");
         counterAttackState = new Player_CounterAttackState(this, stateMachine, "counterAttack");
+        swordThrowState = new Player_SwordThrowState(this, stateMachine, "swordThrow");
+        domainExpansionState = new Player_DomainExpansionState(this, stateMachine, "jumpFall");
     }
 
     protected override void Start()
@@ -69,6 +100,8 @@ public class Player : Entity
         base.Start();
         stateMachine.Initialize(idleState);
     }
+
+    public void TeleportPlayer(Vector3 position) => transform.position = position;
 
     protected override IEnumerator SlowDownEntityCo(float duration, float slowMultiplier)
     {
@@ -128,14 +161,48 @@ public class Player : Entity
         stateMachine.ChangeState(basicAttackState);
     }
 
+    private void TryInteract()
+    {
+        Transform closest = null;
+        float closestDistance = Mathf.Infinity;
+        Collider2D[] objectsAround = Physics2D.OverlapCircleAll(transform.position, 1f);
+
+        foreach (var target in objectsAround)
+        {
+            IInteractable interactable = target.GetComponent<IInteractable>();
+            if (interactable == null) continue;
+
+            float distance = Vector2.Distance(transform.position, target.transform.position);
+
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closest = target.transform;
+            }
+        }
+
+        if (closest == null)
+            return;
+
+        closest.GetComponent<IInteractable>().Interact();
+    }
+
     private void OnEnable()
     {
         input.Enable();
 
+        input.Player.Mouse.performed += ctx => mousePosition = ctx.ReadValue<Vector2>();
+
         input.Player.Movement.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         input.Player.Movement.canceled += ctx => moveInput = Vector2.zero;
 
-        input.Player.ToggleSkillTreeUI.performed += ctx => ui.ToggleSkillTreeUI();
+        input.Player.Spell.performed += ctx => skillManager.shard.TryUseSkill();
+        input.Player.Spell.performed += ctx => skillManager.timeEcho.TryUseSkill();
+
+        input.Player.Interact.performed += ctx => TryInteract();
+
+        input.Player.QuickItemSlot_1.performed += ctx => inventory.TryUseQuickItemInSlot(1);
+        input.Player.QuickItemSlot_2.performed += ctx => inventory.TryUseQuickItemInSlot(2);
     }
 
     private void OnDisable()
